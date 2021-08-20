@@ -1,0 +1,18 @@
+#include <stdio.h>
+ int main(void){
+ 	int a,b,div, acum=1, i;
+ 	printf("calculadora de potencia y divicion");
+ 	printf("indica el valor del primer numero: \n");
+ 	scanf("%d", &a);
+ 	printf("indica el valor del segundo numero: \n");
+ 	scanf("%d", &b);
+ 	
+ 	for(i=1;i<=b;i++){
+ 		acum=acum*a;
+	 }
+	printf("el resultado de la potencia es: %d",acum);
+	div= a/b;
+ 	printf("la divicion de los numeros es %d",div);
+ 	
+ 	return 0; 
+ }
